@@ -15,9 +15,6 @@
     z-index: 1;
   }
   
-  .text-box:focus {
-    outline: 0.5px groove;
-  }
   
   .search-icon-box {
     width: 66px;
