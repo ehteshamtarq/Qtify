@@ -1,3 +1,9 @@
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 nav {
     background-color: var(--css-primary);
     width: 100%;
