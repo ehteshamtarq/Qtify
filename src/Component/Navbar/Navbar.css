@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
+
 nav {
     background-color: var(--css-primary);
     width: 100%;
@@ -21,6 +16,7 @@ nav {
     color: var(--css-primary);
     font-size: 18px;
     font-weight: 600;
+    font-family: Poppins;
     width: 170px;
     height: 47px;
     padding: 10px 16px;
