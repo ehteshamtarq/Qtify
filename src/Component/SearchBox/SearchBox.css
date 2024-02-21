@@ -1,3 +1,9 @@
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 .search-box {
     display: flex;
     align-items: center;
