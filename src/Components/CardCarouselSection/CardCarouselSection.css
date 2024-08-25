@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.swiper {
+  position: relative;
+  padding: 0 8px;
+  background-color: var(--css-black);
+}
+
+.slider-btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-90%);
+  cursor: pointer;
+}
+
+.left-btn {
+  z-index: 10;
+  left: -5px;
+}
+.right-btn {
+  right: 10px;
+}

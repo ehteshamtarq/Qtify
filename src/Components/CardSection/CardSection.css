@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.section-container {
+  margin: 20px;
+}
+
+.text-container {
+  color: var(--css-white);
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  font-family: Poppins;
+}
+
+.collapse-btn {
+  color: var(--css-primary);
+  cursor: pointer;
+}
+
+.card-container {
+  margin: 20px 5px;
+}

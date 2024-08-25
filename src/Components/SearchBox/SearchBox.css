@@ -1,15 +1,11 @@
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
 .search-box {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 36%;
     height: 100%;
+    background-color: transparent;
   }
   
   .text-box {
@@ -19,8 +15,8 @@ select {
     border-radius: 8px 0 0 8px;
     border: 1px solid;
     z-index: 1;
+    font-family:Poppins;
   }
-  
   
   .search-icon-box {
     width: 66px;

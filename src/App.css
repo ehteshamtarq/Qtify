@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+hr{
+  border: 1px solid var(--css-primary);
+	border-radius: 5px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -26,6 +32,9 @@
 
 .App-link {
   color: #61dafb;
+}
+div{
+  background-color: var(--css-black);
 }
 
 @keyframes App-logo-spin {
